@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pham Chien_Portfolio</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="jpMain">
+    <nav id="mSidebar">
+      <div class="sidbar-avatar">
+        <img class="sidebar-img" style="width: 100%; height: auto;" src="./assets/images/avatar.jpg" alt="My avatar">
+      </div>
+        <a onclick="active(event)" href="#home" class="sidebar-link active">
+          <i class="sidbar-icon fa-brands fa-space-awesome"></i>
+          <div class="item-desc">Trang Chủ</div>
+        </a>
+        <a onclick="active(event)" href="#about" class="sidebar-link">
+          <i class="sidbar-icon fa-solid fa-user-secret"></i>
+          <div class="item-desc">Về Tôi</div>
+        </a>
+        <a onclick="active(event)" href="#projects" class="sidebar-link">
+          <i class="sidbar-icon fa-solid fa-code"></i>
+          <div class="item-desc">Dự Án</div>
+        </a>
+        <a onclick="active(event)" href="#contact" class="sidebar-link">
+          <i class="sidbar-icon fa-brands fa-connectdevelop"></i>
+          <div class="item-desc">Liên Hệ</div>
+        </a>
+    </nav>
+    <!-- // Side bar -->
+
+    <div id="mSection">
+      <div id="jpContent">
+        <nav class="headernav">
+          <a onclick="active(event)" href="#home" class="sidebar-link active">
+            <div class="item-desc">Trang Chủ</div>
+          </a>
+          <a onclick="active(event)" href="#about" class="sidebar-link">
+            <div class="item-desc">Về Tôi</div>
+          </a>
+          <a onclick="active(event)" href="#projects" class="sidebar-link">
+            <div class="item-desc">Dự Án</div>
+          </a>
+          <a onclick="active(event)" href="#contact" class="sidebar-link">
+            <div class="item-desc">Liên Hệ</div>
+          </a>
+        </nav>
+        <header id="home">
+          <h1 class="home-heading PC-display">Mình là Chiến Phạm.</h1>
+          <h2 class="home-heading mobile-display">Chiến Phạm.</h2>
+          <p class="home-desc">Front-end Developer.</p>
+          <img class="home-img" width="740" height="auto" src="./assets/images/avatar.jpg" alt="My-avatar">
+        </header>
+        <!-- // Home/Header -->
+
+        <div id="about">
+          <h2 class="heading-2">Lời nói đầu</h2>
+          <hr style="width: 200px;" class="hr">
+          <p class="about-desc">Xin chào mọi người! Mình là Chiến Phạm (J), quê ở Hải Dương.
+            Mình là cựu sinh viên Khoa Công Nghệ Thực Phẩm, trường Học Viện Nông Nghiệp Việt Nam.
+            Công việc trước đây có mình có đầu việc cần xử lý số liệu, sử dụng miniTab.
+            Trong quá trình sử dụng mình thấy nó khó sử dụng và giao diên xấu nên đã tìm kiếm một công cụ khác để dùng.
+            Mình tìm ra Python và VBA lập trình excel có thể giải quyết vấn đề này.
+            Sau khi học Python, tìm hiểu về lập trình mình nhận ra mình thích lập trình và thấy ngành có tiềm năng rất lớn.
+            Tháng 3/2022, mình quyết định chuyển ngành, tự học lập trình Web với mục tiêu là để có "công việc và thu nhập" đặt nền móng, bước chân vào ngành lập trình.
+            Mục tiêu tiếp theo là phát triển thành một lập trình viên Full-stack, đóng góp phát triển công ty mình sẽ làm việc và đem đến những chương trình, ứng dụng đáp ứng được nhu cầu, mong muốn của đối tác và người dùng cuối.</p>
+          <h3 class="heading-3">Thông tin cá nhân</h3>
+          <div class="personal-info">
+            <div class="info-basic">
+              <ul class="info-list">
+                <li class="info-item">
+                  <span>Họ và Tên:</span> Phạm Văn Chiến
+                </li>
+                <li class="info-item">
+                  <span>Giới tính:</span> Nam
+                </li>
+                <li class="info-item">
+                  <span>Ngày sinh:</span> 21/08/1997
+                </li>
+                <li class="info-item">
+                  <span>Quê quán:</span> Hải Dương
+                </li>
+                <li class="info-item">
+                  <span>Địa chỉ:</span> Phùng Khang, Trung Văn, Hà Nội
+                </li>
+                <li class="info-item">
+                  <span>Phone:</span> <a href="#phone">0333315957</a>
+                </li>
+                <li class="info-item">
+                  <span>Ngôn ngữ:</span> Tiếng Việt, Tiếng Anh
+                </li>
+                <li class="info-item">
+                  <span>Email:</span> <a href="mailto:">jasonpham2108@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="info-more">
+              <div class="years-experience">
+                <span>5+</span>
+                Months
+              </div>
+              <div class="projects-done">
+                <span>8+</span>
+                Projects Done
+              </div>
+              <div class="courses-done">
+                <span>7+</span>
+                Courses Dones
+              </div>
+            </div>
+          </div>
+  
+          <h3 class="heading-3">Kỹ Năng</h3>
+          <div class="personal-skills">
+            <ul class="skill-list">
+              <li class="skill-item">
+                <i class="skil-icon fa-brands fa-html5"></i>
+                HTML
+              </li>
+              <li class="skill-item">
+                <i class="skil-icon fa-brands fa-css3-alt"></i>
+                CSS
+              </li>
+              <li class="skill-item">
+                <i class="skil-icon fa-brands fa-square-js"></i>
+                JAVASCRIPT
+              </li>
+              <li class="skill-item">
+                <i class="skil-icon fa-solid fa-laptop-code"></i>
+                RESPONSIVE WEB DESIGN
+              </li>
+              <li class="skill-item">
+                <i class="skil-icon fa-brands fa-sass"></i>
+                SASS
+              </li>
+              <li class="skill-item">
+                <i class="skil-icon fa-brands fa-git-alt"></i>
+                GIT
+              </li>
+              <li class="skill-item">
+                <i class="skil-icon fa-brands fa-figma"></i>
+                FIGMA
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- About Me -->
+
+        <div id="projects">
+          <h2 class="heading-2">Dự án của tôi</h2>
+          <hr style="width: 200px;" class="hr">
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a class="projects__link" target="_blank" href="https://chienpham2108-jp.github.io/weather_app/">
+                <img class="projects__img" src="./assets/images/weather_app.PNG" alt="Weather app">
+              </a>
+              <div class="projects__description">
+                <h4>Weather App</h4>
+                <p>Mình đã sử dụng HTML, CSS, JS Web APIs để tạo ra website xem dự báo thời tiết.</p>
+                <p><span>Thời gian hoàn thành -</span> 19/5 - 20/5/2022</p>
+                <p><span>Tính năng -</span> Tra cứu thời tiết hiện tại của từng thành phố;
+                  Hiển thị dự báo thời tiết cho 8 ngày;
+                  Hiển thị ngày giờ hiện tại;
+                  hiển thị ảnh nền theo thời tiết;
+                </p>
+                <p><span>Frontend -</span> HTML, CSS, JS, JS Web Fetch API</p>
+                <p><span>Demo -</span>
+                  <a target="_blank" href="https://chienpham2108-jp.github.io/weather_app/">https://chienpham2108-jp.github.io/weather_app/</a>
+                </p>
+                <p><span>Note -</span> "BUG" trên iphone 6 chưa responsive phần phía dưới của trang với element: position:fixed; scroll-y:auto</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <a class="projects__link" target="_blank" href="https://chienpham2108-jp.github.io/music_player/">
+                <img class="projects__img" src="./assets/images/music_player.PNG" alt="Music Player">
+              </a>
+              <div class="projects__description">
+                <h4>Music Player</h4>
+                <p>Mình đã sử dụng HTML, CSS, JS để tạo ra website nghe nhạc.</p>
+                <p><span>Ngày hoàn thành -</span> 20/5 - 22/5/2022</p>
+                <p><span>Tính năng -</span> Chơi, dừng, tua nhạc; Chọn bài hát;
+                  Chạy bài ngẫu nhiên; Lặp bài; Chuyển bài;
+                  Hiển thị danh sách bài hát, bài hát đang chạy, quay đĩa bài hát;
+                </p>
+                <p><span>Frontend -</span> HTML, CSS, JS</p>
+                <p><span>Demo -</span>
+                  <a target="_blank" href="https://chienpham2108-jp.github.io/music_player/">https://chienpham2108-jp.github.io/music_player/</a>
+                </p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <a class="projects__link" target="_blank" href="https://chienpham2108-jp.github.io/e-commerce_website/">
+                <img class="projects__img" src="./assets/images/e-commerce_website.PNG" alt="The Shopee Shop">
+              </a>
+              <div class="projects__description">
+                <h4>E-commerce Website</h4>
+                <p>Mình đã sử dụng HTML, CSS để tạo ra 1 "Page" thương mại điện tử.</p>
+                <p><span>Ngày hoàn thành -</span> 14/8 - 19/8/2022</p>
+                <p><span>Tính năng -</span>
+                  Hiển thị giao diện một gian hàng trên Shopee đáp ứng trên các thiết bị khác nhau; 
+                  Hiển thị giỏ hàng, thông báo, QR code, thanh tìm kiếm;
+                  Hiển thị thông tin người dùng, đăng ký, đăng nhập;
+                </p>
+                <p><span>Frontend -</span> HTML, CSS</p>
+                <p><span>Demo -</span>
+                  <a target="_blank" href="https://chienpham2108-jp.github.io/e-commerce_website/">https://chienpham2108-jp.github.io/e-commerce_website/</a>
+                </p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <a class="projects__link" target="_blank" href="https://chienpham2108-jp.github.io/the_band/">
+                <img class="projects__img" src="./assets/images/the_band.PNG" alt="The Band">
+              </a>
+              <div class="projects__description">
+                <h4>The Band Page</h4>
+                <p>Mình đã sử dụng HTML, CSS, JS để tạo ra website về nhóm nhạc The Band.</p>
+                <p><span>Ngày hoàn thành -</span> 12/8 - 13/8/2022</p>
+                <p><span>Tính năng -</span>
+                  Hiển thị thông tin nhóm nhạc đáp ứng trên các thiết bị khác nhau; form modal; slider-banner;
+                </p>
+                <p><span>Frontend -</span> HTML, CSS, JS</p>
+                <p><span>Demo -</span>
+                  <a target="_blank" href="https://chienpham2108-jp.github.io/the_band/">https://chienpham2108-jp.github.io/the_band/</a>
+                </p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <a class="projects__link" target="_blank" href="https://chienpham2108-jp.github.io/my_portfolio/">
+                <img class="projects__img" src="./assets/images/my_portfolio.PNG" alt="My Porfolio">
+              </a>
+              <div class="projects__description">
+                <h4>My Porfolio</h4>
+                <p>Mình đã sử dụng HTML, CSS, JS để tạo ra website "My Porfolio" .</p>
+                <p><span>Ngày hoàn thành -</span> 21/8 - 22/8/2022</p>
+                <p><span>Tính năng -</span>
+                  Hiển thị thông tin trang "My Porfolio" đáp ứng trên các thiết bị khác nhau;
+                </p>
+                <p><span>Frontend -</span> HTML, CSS, JS</p>
+                <p><span>Demo -</span>
+                  <a target="_blank" href="https://chienpham2108-jp.github.io/my_portfolio/">https://chienpham2108-jp.github.io/my_portfolio/</a>
+                </p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <a class="projects__link" target="_blank" href="https://chienpham2108-jp.github.io/login_insta/">
+                <img class="projects__img" src="./assets/images/instagram.PNG" alt="Instagram login">
+              </a>
+              <div class="projects__description">
+                <h4>Instagram Login Page</h4>
+                <p>Mình đã sử dụng HTML, CSS để cắt giao diện của trang Instagram đăng nhập.</p>
+                <p><span>Created -</span> 22/5/2022</p>
+                <p><span>Tính năng -</span> Hiển thị trang Instagram đăng nhập - Phù hợp với các thiết bị khác nhau(Responsive);
+                </p>
+                <p><span>Frontend -</span> HTML, CSS</p>
+                <p><span>Demo -</span>
+                  <a target="_blank" href="https://chienpham2108-jp.github.io/login_insta/">https://chienpham2108-jp.github.io/login_insta/</a>
+                </p>
+                <p><span>Note -</span> Trên iphone 6 "BUG" chưa responsive trên iphone 6.</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <a class="projects__link" target="_blank" href="https://chienpham2108-jp.github.io/twitter_login/">
+                <img class="projects__img" src="./assets/images/twitter_login.PNG" alt="Twitter Login">
+              </a>
+              <div class="projects__description">
+                <h4>Twitter Login Page</h4>
+                <p>Mình đã sử dụng HTML, CSS để cắt giao diện trang Twitter đăng nhập.</p>
+                <p><span>Created -</span> 22/5/2022</p>
+                <p><span>Tính năng -</span>
+                  Hiển thị giao diện website đáp ứng trên các thiết bị khác nhau.
+                </p>
+                <p><span>Frontend -</span> HTML, CSS</p>
+                <p><span>Demo -</span>
+                  <a target="_blank" href="https://chienpham2108-jp.github.io/twitter_login/">https://chienpham2108-jp.github.io/twitter_login/</a>
+                </p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <a class="projects__link" target="_blank" href="https://chienpham2108-jp.github.io/kakao_login/">
+                <img class="projects__img" src="./assets/images/kakao.PNG" alt="Kakao Account">
+              </a>
+              <div class="projects__description">
+                <h4>Kakao Account</h4>
+                <p>Mình đã sử dụng HTML, CSS để cắt giao diện trang Kakao đăng nhập.</p>
+                <p><span>Created -</span> 22/5/2022</p>
+                <p><span>Tính năng -</span>
+                  Hiển thị giao diện website đáp ứng trên các thiết bị khác nhau.
+                </p>
+                <p><span>Frontend -</span> HTML, CSS</p>
+                <p><span>Demo -</span>
+                  <a target="_blank" href="https://chienpham2108-jp.github.io/kakao_login/">https://chienpham2108-jp.github.io/kakao_login/</a>
+                </p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <a class="projects__link" target="_blank" href="https://chienpham2108-jp.github.io/google_signup/">
+                <img class="projects__img" src="./assets/images/google_login.PNG" alt="Google Signup">
+              </a>
+              <div class="projects__description">
+                <h4>Google Đăng ký</h4>
+                <p>Mình đã sử dụng HTML, CSS để cắt giao diện trang Google đăng ký.</p>
+                <p><span>Created -</span> 22/5/2022</p>
+                <p><span>Tính năng -</span>
+                  Hiển thị giao diện website đáp ứng trên các thiết bị khác nhau.
+                </p>
+                <p><span>Frontend -</span> HTML, CSS</p>
+                <p><span>Demo -</span>
+                  <a target="_blank" href="https://chienpham2108-jp.github.io/google_signup/">https://chienpham2108-jp.github.io/google_signup/</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- // My Projects -->
+
+        <div id="contact">
+          <h2 class="heading-2">Liên hệ tôi</h2>
+          <hr style="width: 200px;" class="hr">
+          <div class="contact-item">
+            <i class="contact-icon fa-solid fa-location-dot"></i>
+            Phùng Khang, Hà Nội
+          </div>
+          <div class="contact-item">
+            <i class="contact-icon fa-solid fa-mobile-screen-button"></i>
+            Phone: <a href="phone">0333315957</a>
+          </div>
+          <div class="contact-item">
+            <i class="contact-icon fa-solid fa-envelope-open"></i>
+            Email: <a href="mailto:">jasonpham2108@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <i class="contact-icon fa-brands fa-square-facebook"></i>
+            Facebook: <a href="https://www.facebook.com/pham.chien.543/">Chiến Phạm</a>
+          </div>
+        </div>
+        <!-- Contact -->
+        <!-- // Content -->
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/a37f060351.js" crossorigin="anonymous"></script>
+  <script>
+    function active(event) {
+      const navElementList = document.querySelectorAll('.sidebar-link')
+      for (let link of navElementList) {
+        link.stopPopagation;
+        if (link.classList.contains('active')) {
+          link.classList.remove('active');
+        }
+        if (event.currentTarget) {
+          event.currentTarget.classList.add('active')
+        }
+      }
+    }
+  </script>
+</body>
+</html>
